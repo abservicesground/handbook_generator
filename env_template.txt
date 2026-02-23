@@ -1,0 +1,16 @@
+# OpenAI API Configuration (Required)
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-4o-2024-05-13
+
+# Supabase Configuration (Optional)
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_KEY=your_supabase_anon_key
+
+# LightRAG Configuration
+EMBEDDING_MODEL=text-embedding-3-small
+EMBEDDING_DIM=1536
+
+# Application Settings
+MAX_CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+MAX_HANDBOOK_LENGTH=20000
